@@ -1,0 +1,66 @@
+{
+  "orders": [
+    {
+      "Id": 1,
+      "UserId": 1,
+      "Products": [
+        {
+          "ProductId": 1,
+          "Quantity": 2
+        },
+        {
+          "ProductId": 3,
+          "Quantity": 1
+        }
+      ],
+      "Status": "W realizacji",
+      "Date": "2025-02-17T10:30:00"
+    }
+  ],
+  "users": [
+    {
+      "Name": "Jan Kowalski",
+      "Email": "jan.kowalski@example.com",
+      "Password": "pass123",
+      "Address": "Kraków",
+      "Id": 1
+    },
+    {
+      "Name": "Anna Nowak",
+      "Email": "anna.nowak@example.com",
+      "Password": "secure456",
+      "Address": "Gdańsk",
+      "Id": 2
+    }
+  ],
+  "products": [
+    {
+      "Name": "Smartfon X",
+      "Description": "Nowoczesny smartfon z dużym ekranem",
+      "Price": 2500,
+      "Id": 1
+    },
+    {
+      "Name": "Laptop Pro",
+      "Description": "Wydajny laptop do pracy i rozrywki",
+      "Price": 4500,
+      "Id": 2
+    },
+    {
+      "Name": "Bezprzewodowa mysz",
+      "Description": "Ergonomiczna mysz bezprzewodowa",
+      "Price": 150,
+      "Id": 3
+    }
+  ],
+  "repairRequests": [
+    {
+      "UserId": 2,
+      "Device": "Laptop Pro",
+      "Date": "2025-02-17T12:45:00",
+      "Description": "Nie włącza się",
+      "Status": "Oczekuje na diagnozę",
+      "Id": 1
+    }
+  ]
+}
